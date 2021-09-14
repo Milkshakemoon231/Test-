@@ -1,0 +1,339 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local LoginGui = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local Discord = Instance.new("TextBox")
+local UICorner_2 = Instance.new("UICorner")
+local Password = Instance.new("TextBox")
+local UICorner_3 = Instance.new("UICorner")
+local Enter = Instance.new("TextButton")
+local GuimadebyMilkshake = Instance.new("TextLabel")
+local UICorner_4 = Instance.new("UICorner")
+local TextButton = Instance.new("TextButton")
+local TextLabel = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local MUSIC = Instance.new("TextButton")
+local Goodway = Instance.new("TextButton")
+local AfterGui = Instance.new("Frame")
+local UICorner_5 = Instance.new("UICorner")
+local TextButton_2 = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local TextLabel_3 = Instance.new("TextLabel")
+local UICorner_7 = Instance.new("UICorner")
+local TextButton_3 = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+LoginGui.Name = "LoginGui"
+LoginGui.Parent = ScreenGui
+LoginGui.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+LoginGui.BackgroundTransparency = 0.100
+LoginGui.Position = UDim2.new(0.24840869, 0, 0.147643715, 0)
+LoginGui.Size = UDim2.new(0, 419, 0, 452)
+
+UICorner.Parent = LoginGui
+
+Discord.Name = "Discord"
+Discord.Parent = LoginGui
+Discord.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Discord.Position = UDim2.new(0.150357991, 0, 0.265486717, 0)
+Discord.Size = UDim2.new(0, 293, 0, 64)
+Discord.Font = Enum.Font.Ubuntu
+Discord.PlaceholderText = "Put discord name"
+Discord.Text = ""
+Discord.TextColor3 = Color3.fromRGB(0, 0, 0)
+Discord.TextScaled = true
+Discord.TextSize = 14.000
+Discord.TextWrapped = true
+
+UICorner_2.Parent = Discord
+
+Password.Name = "Password"
+Password.Parent = LoginGui
+Password.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Password.Position = UDim2.new(0.150357991, 0, 0.508849561, 0)
+Password.Size = UDim2.new(0, 293, 0, 64)
+Password.Font = Enum.Font.Ubuntu
+Password.PlaceholderText = "Put Password"
+Password.Text = ""
+Password.TextColor3 = Color3.fromRGB(0, 0, 0)
+Password.TextScaled = true
+Password.TextSize = 14.000
+Password.TextWrapped = true
+
+UICorner_3.Parent = Password
+
+Enter.Name = "Enter"
+Enter.Parent = LoginGui
+Enter.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Enter.Position = UDim2.new(0.257756561, 0, 0.761061966, 0)
+Enter.Size = UDim2.new(0, 203, 0, 53)
+Enter.Font = Enum.Font.Ubuntu
+Enter.Text = "Enter"
+Enter.TextColor3 = Color3.fromRGB(50, 50, 50)
+Enter.TextScaled = true
+Enter.TextSize = 14.000
+Enter.TextWrapped = true
+
+GuimadebyMilkshake.Name = "Gui made by Milkshake"
+GuimadebyMilkshake.Parent = LoginGui
+GuimadebyMilkshake.BackgroundColor3 = Color3.fromRGB(117, 117, 117)
+GuimadebyMilkshake.Size = UDim2.new(0, 419, 0, 59)
+GuimadebyMilkshake.Font = Enum.Font.Ubuntu
+GuimadebyMilkshake.Text = "Gui made by Milkshake"
+GuimadebyMilkshake.TextColor3 = Color3.fromRGB(255, 255, 255)
+GuimadebyMilkshake.TextSize = 40.000
+
+UICorner_4.Parent = GuimadebyMilkshake
+
+TextButton.Parent = LoginGui
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.BackgroundTransparency = 1.000
+TextButton.Position = UDim2.new(0.0214797128, 0, 0, 0)
+TextButton.Size = UDim2.new(0, 54, 0, 51)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "G"
+TextButton.TextColor3 = Color3.fromRGB(67, 67, 67)
+TextButton.TextScaled = true
+TextButton.TextSize = 14.000
+TextButton.TextWrapped = true
+
+TextLabel.Parent = LoginGui
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0.0596658699, 0, 0.0110619469, 0)
+TextLabel.Size = UDim2.new(0, 66, 0, 42)
+TextLabel.Font = Enum.Font.Ubuntu
+TextLabel.Text = "u"
+TextLabel.TextColor3 = Color3.fromRGB(188, 188, 188)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+TextLabel_2.Parent = LoginGui
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(0.114558473, 0, 0.0243362896, 0)
+TextLabel_2.Size = UDim2.new(0, 49, 0, 36)
+TextLabel_2.Font = Enum.Font.Ubuntu
+TextLabel_2.Text = "i"
+TextLabel_2.TextColor3 = Color3.fromRGB(188, 188, 188)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+
+MUSIC.Name = "MUSIC"
+MUSIC.Parent = LoginGui
+MUSIC.BackgroundColor3 = Color3.fromRGB(200, 200, 200)
+MUSIC.Position = UDim2.new(0.510739863, 0, 0.14601776, 0)
+MUSIC.Size = UDim2.new(0, 196, 0, 47)
+MUSIC.Font = Enum.Font.Ubuntu
+MUSIC.Text = "Click this to stop da stoopid music 💃"
+MUSIC.TextColor3 = Color3.fromRGB(50, 50, 50)
+MUSIC.TextScaled = true
+MUSIC.TextSize = 14.000
+MUSIC.TextWrapped = true
+
+Goodway.Name = "Goodway"
+Goodway.Parent = LoginGui
+Goodway.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Goodway.BackgroundTransparency = 1.000
+Goodway.Position = UDim2.new(0.918854415, 0, 0.00442481274, 0)
+Goodway.Size = UDim2.new(0, 32, 0, 24)
+Goodway.Font = Enum.Font.Ubuntu
+Goodway.Text = " "
+Goodway.TextColor3 = Color3.fromRGB(50, 50, 50)
+Goodway.TextScaled = true
+Goodway.TextSize = 14.000
+Goodway.TextWrapped = true
+
+AfterGui.Name = "AfterGui"
+AfterGui.Parent = ScreenGui
+AfterGui.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+AfterGui.BackgroundTransparency = 0.300
+AfterGui.Position = UDim2.new(0.175960466, 0, 0.115191951, 0)
+AfterGui.Size = UDim2.new(0, 558, 0, 416)
+AfterGui.Visible = false
+
+UICorner_5.Parent = AfterGui
+
+TextButton_2.Parent = AfterGui
+TextButton_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.Position = UDim2.new(0.329749107, 0, 0.771634638, 0)
+TextButton_2.Size = UDim2.new(0, 190, 0, 58)
+TextButton_2.Font = Enum.Font.AmaticSC
+TextButton_2.Text = "My shop"
+TextButton_2.TextColor3 = Color3.fromRGB(204, 204, 204)
+TextButton_2.TextScaled = true
+TextButton_2.TextSize = 14.000
+TextButton_2.TextWrapped = true
+
+UICorner_6.Parent = TextButton_2
+
+TextLabel_3.Parent = AfterGui
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(193, 193, 193)
+TextLabel_3.Position = UDim2.new(0.329749107, 0, 0.889423072, 0)
+TextLabel_3.Size = UDim2.new(0, 190, 0, 9)
+TextLabel_3.Font = Enum.Font.SourceSans
+TextLabel_3.Text = " "
+TextLabel_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.TextSize = 14.000
+
+UICorner_7.Parent = TextLabel_3
+
+TextButton_3.Parent = AfterGui
+TextButton_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.Position = UDim2.new(0.93369174, 0, 0, 0)
+TextButton_3.Size = UDim2.new(0, 37, 0, 35)
+TextButton_3.Font = Enum.Font.Jura
+TextButton_3.Text = "X"
+TextButton_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_3.TextScaled = true
+TextButton_3.TextSize = 14.000
+TextButton_3.TextWrapped = true
+
+UICorner_8.Parent = TextButton_3
+
+-- Scripts:
+
+local function SQLYDF_fake_script() -- Enter.LocalScript 
+	local script = Instance.new('LocalScript', Enter)
+
+	local UserData = script.Parent.Parent.Discord -- this is the variable for the 'username' textbox. 
+	local button = script.Parent -- this is a variable for the Button.
+	local UserPass = script.Parent.Parent.Password -- this is a variable for the 'Password' textbox
+	local End = script.Parent.Parent.Parent.AfterGui -- rename Hackz to ur frame u want to open after logging in.
+	button.MouseButton1Click:Connect(function() -- will run the script down below after clicking the button
+		if UserData.Text == "Milkshake" and UserPass.Text == "M" then -- change noob and 111 to a username and password u want
+			End.Visible = true  -- makes the hack frame visible after logging in.
+			wait(0) -- waits one second.
+			script.Parent.Parent.Visible = false -- makes the login frame invisible after logging in.
+		else -- if the pass or username is wrong it will run the script down below
+			button.Text = "Invalid Info" -- changes the text to invalid info
+			wait(0.5) -- waits 0,5 secs
+			button.Text = "Try again" -- changes the text to try again
+			wait(0.5) -- waits another 0,5 secs
+			button.Text = "Login" -- changes the text back to login
+		end -- ends the if statement
+	end) -- ends the button function
+	
+	
+	-- fully scripted by NTO EXPLOITS on youtube -- 
+end
+coroutine.wrap(SQLYDF_fake_script)()
+local function ASPEWHJ_fake_script() -- Enter.LocalScript 
+	local script = Instance.new('LocalScript', Enter)
+
+	local function callback(Text)
+		if Text == "Button1 text" then
+			print ("Answer")
+		end
+	end
+	
+	local NotificationBindable = Instance.new("BindableFunction")
+	NotificationBindable.OnInvoke = callback
+	--
+	game.StarterGui:SetCore("SendNotification",  {
+		Title = "Welcome to LoginGui!";
+		Text = "Enjoy the music 😏";
+		Icon = "";
+		Duration = 100;
+		Button1 = "k";
+		Callback = NotificationBindable;
+	})
+end
+coroutine.wrap(ASPEWHJ_fake_script)()
+local function JNFPFCN_fake_script() -- GuimadebyMilkshake.LocalScript 
+	local script = Instance.new('LocalScript', GuimadebyMilkshake)
+
+	local UIS = game:GetService('UserInputService')
+	local frame = script.Parent.Parent.Parent.LoginGui
+	local dragToggle = nil
+	local dragSpeed = 0.1
+	local dragStart = nil
+	local startPos = nil
+	
+	local function updateInput(input)
+		local delta = input.Position - dragStart
+		local position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X,
+			startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+		game:GetService('TweenService'):Create(frame, TweenInfo.new(dragSpeed), {Position = position}):Play()
+	end
+	
+	frame.InputBegan:Connect(function(input)
+		if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then 
+			dragToggle = true
+			dragStart = input.Position
+			startPos = frame.Position
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragToggle = false
+				end
+			end)
+		end
+	end)
+	
+	UIS.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			if dragToggle then
+				updateInput(input)
+			end
+		end
+	end)
+	
+end
+coroutine.wrap(JNFPFCN_fake_script)()
+local function NGCJB_fake_script() -- TextButton.LocalScript 
+	local script = Instance.new('LocalScript', TextButton)
+
+	local Frame = script.Parent.Parent.Parent.AfterGui
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		Frame.Visible = true
+	end)
+end
+coroutine.wrap(NGCJB_fake_script)()
+local function HWHKCY_fake_script() -- MUSIC.LocalScript 
+	local script = Instance.new('LocalScript', MUSIC)
+
+	--Variables
+	local GoodSound = game.SoundService.GoodSound
+	local play = false
+	
+	--script
+	script.Parent.MouseButton1Click:Connect(function()
+		if play then
+			GoodSound.Volume = 1				--volume from the music when it's on
+			play = false
+			script.Parent.Text = "Click this to stop da stoopid music 💃" else  --you can change the text from the button here between ""
+			GoodSound.Volume = 0					--volume from the music when it's off
+			play = true			
+			script.Parent.Text = "Play da music again💃"		--you can change the text from the button here between ""
+		end
+	end)
+end
+coroutine.wrap(HWHKCY_fake_script)()
+local function TBEOF_fake_script() -- Goodway.LocalScript 
+	local script = Instance.new('LocalScript', Goodway)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		script.Parent.Parent.Parent.AfterGui.Visible = true
+	end)
+end
+coroutine.wrap(TBEOF_fake_script)()
+local function TFGFBTM_fake_script() -- TextButton_3.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_3)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		script.Parent.Parent.Parent.AfterGui.Visible = false
+	end)
+end
+coroutine.wrap(TFGFBTM_fake_script)()
